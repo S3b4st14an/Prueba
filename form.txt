@@ -1,0 +1,17 @@
+<section>
+	<form name="frm1" method="post" action="#">
+  <div class="form-group">
+  	<label>Nombres:</label>
+   <input class="form-control" type="text" placeholder="Ingresa tus Nombres">
+   <label>Apellidos:</label>
+   <input class="form-control" type="text" placeholder="Ingresa tus Apellidos">
+    <label for="exampleInputEmail1">Correo Electronico:</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu Correo">
+   <label>Dirección:</label>
+   <input class="form-control" type="text" placeholder="Ingresa tu Dirección">
+   <label>Comentario:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentanos"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</section>
